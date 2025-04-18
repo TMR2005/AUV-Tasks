@@ -1,1 +1,6 @@
+Create a publisher node where the user enters commands like "forward", "turn left" etc
+and the subscriber should print the position of the bot(x,y, facing direction, etc). The
+position data should be communicated through a custom message called "bot_pose".
+Assume bot starts from (0,0) and moves in the cartesian plane. Note: Extra points for
+simulating bot movement with a state machine.
 
