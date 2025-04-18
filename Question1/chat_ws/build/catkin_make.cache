@@ -1,0 +1,2 @@
+chat_app
+-DCATKIN_DEVEL_PREFIX=/home/vboxuser/chat_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/chat_ws/install -G Unix Makefiles
