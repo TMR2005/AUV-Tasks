@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/chat_ws/devel
+
+Name: chat_app
+Description: Description of chat_app
+Version: 0.0.0
+Cflags: -I/home/vboxuser/chat_ws/devel/include
+Libs: -L${prefix}/lib -lchat_app
+Requires: message_runtime message_generation rospy std_msgs
