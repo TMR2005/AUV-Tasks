@@ -1,3 +1,0 @@
-Create a publisher node that sends multiples of 2. A subscriber node receives it,
-multiplies it by 10, and publishes the result to a new topic. A second subscriber node
-listens to this second topic, adds 5 to the number, and prints the final result.
