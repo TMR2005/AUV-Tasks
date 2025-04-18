@@ -1,0 +1,2 @@
+calc
+-DCATKIN_DEVEL_PREFIX=/home/vboxuser/qn2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/qn2_ws/install -G Unix Makefiles
