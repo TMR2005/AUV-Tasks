@@ -4,3 +4,10 @@ position data should be communicated through a custom message called "bot_pose".
 Assume bot starts from (0,0) and moves in the cartesian plane. Note: Extra points for
 simulating bot movement with a state machine.
 
+
+Publisher code is simple -> Ask the user whether he wants to move the bot Forward or turn left or right,etc., using a menu based Console code. When the user chooses the 
+cmd of what to do, it is then published to the mov.py (The code which does the movement part)
+In the mov.py -> I used StateMachine library (Idle, Move, Turn are the states), I had to store the positions of the bot as a .msg file. From the users input the bot's
+position is changed and displayed.
+I have demonstarted the code using a video.
+Using statemachine was new to me - > Adding a few extensions and dependencies was a bit confusing
