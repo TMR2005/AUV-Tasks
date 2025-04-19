@@ -1,2 +1,3 @@
-Create a ROS package which would enable 2 people (Jolyne and Joestar) to chat with
-each other on the same rosnode and the same rostopic.
+Create a ROS package which would enable 2 people (Jolyne and Joestar) to chat with each other on the same rosnode and the same rostopic.
+
+References: https://youtu.be/8uxd9RBQvmQ?si=ie45QoZ2_3UuYlj8
