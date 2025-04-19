@@ -1,3 +1,14 @@
 Create a ROS package which would enable 2 people (Jolyne and Joestar) to chat with each other on the same rosnode and the same rostopic.
 
 References: https://youtu.be/8uxd9RBQvmQ?si=ie45QoZ2_3UuYlj8
+
+-Create a WS with the above yt video as reference.
+chat_app/
+├── scripts/
+│   └── chat_node.py
+├── CMakeLists.txt
+├── package.xml
+
+Each user has a 'chat' node running and each node works on the same topic
+
+
