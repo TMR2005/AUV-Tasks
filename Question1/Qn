@@ -10,5 +10,7 @@ chat_app/
 ├── package.xml
 
 Each user has a 'chat' node running and each node works on the same topic
+Check for username so that I don't display their msg as well in their rrespective terminal.
+I have attached a video demonstrating the code.
 
 
