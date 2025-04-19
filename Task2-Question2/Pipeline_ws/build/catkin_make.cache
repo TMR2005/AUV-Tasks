@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/vboxuser/OpenCV/Pipeline_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vboxuser/OpenCV/Pipeline_ws/install -G Unix Makefiles
