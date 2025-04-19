@@ -1,1 +1,2 @@
+Create a pipeline to get the camera output. Run edge detection on it and publish this image to ros. Show this image from a subscriber script.
 
