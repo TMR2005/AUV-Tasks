@@ -1,1 +1,7 @@
+ Create a publisher node that sends multiples of 2. A subscriber node receives it, multiplies it by 10, and publishes the result to a new topic. A second subscriber node
+listens to this second topic, adds 5 to the number, and prints the final result.
+
+This was a simple task just like a Publisher and Subscriber nodes Task except now it has 3 nodes -> Publisher, Multiplier and Adder
+Simply publish multiples of 2 to the multiplier ( i += 2) , The multipler listens it and multiplies it by 10 and again publishes it to the Adder node where 5 is added 
+to the published result from multipler and finally displayed.
 
