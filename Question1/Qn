@@ -11,6 +11,7 @@ chat_app/
 
 Each user has a 'chat' node running and each node works on the same topic
 Check for username so that I don't display their msg as well in their rrespective terminal.
+When surfing on the internet I found I needed to make .msg file to send and recieve my messages so integrating them into my CMakeFile and Packages are new to me.
 I have attached a video demonstrating the code.
 
 
