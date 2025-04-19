@@ -1,2 +1,14 @@
 Create a pipeline to get the camera output. Run edge detection on it and publish this image to ros. Show this image from a subscriber script.
 
+The Publisher node:
+The pub.py captures the frame using OpenCV.
+Since Edge image has to be sent to the Subscriber I first converted it to a grey scale image and used canny filter for edge detection.(Grey scale has better results)
+I learnt that images cant be simply sent to another node and had to use cvbridge to send the edge detected image to the Subscriber.
+
+The Subscriber node:
+The sub.py recieves the edge detected image from pub and outputs the image using cv2.imshow
+
+Using cvbridge was new to me and adding dependices and editing the CMakeFile was a bit confusing.
+
+I have attached a video demonstrating this task.
+
